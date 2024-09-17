@@ -92,10 +92,17 @@ aside {
 nav {
     font-size: 0.8em;
 }
+
 nav > ul > li > a:hover, nav > ul > li > a:activate {
     color: rgb(255, 64, 255); 
     text-decoration: underline; 
 } 
+nav > ul > li > a {
+    color: rgb(151, 151, 151); /* Default color */
+}
+
+
+
 
 nav > ul {
     line-height: 2em;
